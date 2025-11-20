@@ -1,0 +1,19 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 260 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.0.112:3000/
+6:06:35 PM [vite] warning: The character ">" is not valid inside a JSX element
+120|        <Section title="Streaming & Payouts" id="economy">
+121|          <ul className="list-disc pl-6">
+122|            <li>Streaming: Serve HLS segments via CDN. Track play starts (>=30s) and completion to compute micro-payouts per play.</li>
+   |                                                                          ^
+123|            <li>Purchases: Stripe Checkout for single tracks/albums. Revenue split: 90% artist, 10% platform by default.</li>
+124|            <li>Support: Stripe Subscriptions. Artists define tier prices/benefits; access gates content or perks.</li>
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Blueprint.jsx
