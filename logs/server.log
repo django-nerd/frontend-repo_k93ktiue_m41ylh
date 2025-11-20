@@ -3,11 +3,11 @@
 > vite
 
 
-  VITE v5.4.20  ready in 260 ms
+  VITE v5.4.20  ready in 284 ms
 
   ➜  Local:   http://localhost:3000/
-  ➜  Network: http://172.20.0.112:3000/
-6:06:35 PM [vite] warning: The character ">" is not valid inside a JSX element
+  ➜  Network: http://172.20.0.62:3000/
+6:35:51 PM [vite] warning: The character ">" is not valid inside a JSX element
 120|        <Section title="Streaming & Payouts" id="economy">
 121|          <ul className="list-disc pl-6">
 122|            <li>Streaming: Serve HLS segments via CDN. Track play starts (>=30s) and completion to compute micro-payouts per play.</li>
